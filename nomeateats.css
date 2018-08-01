@@ -12,6 +12,8 @@ body {
     
 }
 
+.fa { color: #e1b2ff;}
+
 
 
 .headerlogo { width: 100%;
@@ -57,7 +59,13 @@ body {
     margin-left: 50px;
 }
 
-h1 { text-align: center;}
+h1 { text-align: center;
+    color: #a08443;}
+
+h2 { border-style: solid;
+    border-color: white;
+    display: inline;
+    padding: 4px 4px;}
 
 
 #main-doc { background-color: white;
@@ -69,11 +77,13 @@ h1 { text-align: center;}
 .maindocopen { font-size: 25px;
                 text-align: center;}
 
-.maincontent { background-color: black;
+.maincontent { background-color: #262526;
                 color: white;
                 width: 100%;
                 margin-left: auto;
-                margin-right: auto;}
+                margin-right: auto;
+                text-align: justify;
+                text-justify: inter-word;}
 
 footer { text-align: center;
         background-color: #cecece;
